@@ -4,7 +4,7 @@ import sys
 file = open(sys.argv[1]).read().strip()
 # initialize lists of all first and second digits
 d1 = []
-d2 = []
+
 
 for line in file.split('\n'):
     d1_digits = []
